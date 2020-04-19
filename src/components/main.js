@@ -9,9 +9,9 @@ import Post from "./post.js";
 // =======Heroku========
 let baseUrl = "";
 if (process.env.NODE_ENV === "development"){
-    baseUrl = " https://cheesecheese.herokuapp.com/"
+    baseUrl = "https://shielded-brushlands-83017.herokuapp.com/api/posts"
 } else  {
-    baseUrl = "https://cheesie.herokuapp.com/";
+    baseUrl = "https://shielded-brushlands-83017.herokuapp.com/api/posts";
 }
 
 class Main extends React.Component{
