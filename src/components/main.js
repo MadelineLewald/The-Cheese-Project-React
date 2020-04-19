@@ -9,7 +9,7 @@ import Post from "./post.js";
 // =======Heroku========
 let baseUrl = "";
 if (process.env.NODE_ENV === "development"){
-    baseUrl = " https://cheesecheese.herokuapp.com/"
+    baseUrl = "https://cheesecheese.herokuapp.com/"
 } else  {
     baseUrl = "https://cheesie.herokuapp.com/";
 }
